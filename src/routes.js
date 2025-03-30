@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutMe from "./pages/About-me";
-import Home from "./pages/Home";
-import Menu from "./components";
+import Home from "pages/Home";
+import Menu from "./components/Menu";
 
 function AppRoutes() {
   return (
