@@ -8,7 +8,7 @@
 
 .texto404 {
     display: block;
-    color: var(--azul-medio);
+    color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     font-size: 6rem;
     font-weight: 700;

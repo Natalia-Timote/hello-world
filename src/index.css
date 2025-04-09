@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +7,14 @@
 }
 
 :root {
-  --cinza-claro: #f4f5f7;
-  --azul-medio: #1875E8;
-  --cor-fonte-principal: #041833;
+  --cor-principal: #328E6E;
+  --cor-secundaria: #90C67C;
+  --cor-fonte-principal: #0f2e4b;
   --cor-fonte-post: #444444;
-  --branco: #FFF;
-  --fonte-principal: 'Raleway', sans-serif;
-  --fonte-secundaria: 'Playfair Display', sans-serif;
+  --cor-fonte-terciaria: #E1EEBC;
+  --branco: #fff;
+  --fonte-principal: "Signika", sans-serif;
+  --fonte-secundaria: "Noto Sans", sans-serif;
 
   font-family: var(--fonte-principal);
 }
