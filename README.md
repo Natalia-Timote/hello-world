@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## 🌐 Hello, World!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Hello, World!** é uma aplicação simples de artigos sobre tecnologia, com uma interface que inclui uma página inicial, uma seção "Sobre mim" e a navegação entre os conteúdos. Criado a partir de um projeto base da Alura, este site foi customizado com minhas informações e conteúdos, e oferece uma experiência fluida de leitura por meio de uma SPA (Single Page Application) com **React Router**.
 
-## Available Scripts
+![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
-In the project directory, you can run:
+<hr>
 
-### `yarn start`
+## 🚀 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido durante o curso da Alura:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* "Curso de React: desenvolvendo em React Router com JavaScript"
 
-### `yarn test`
+A aplicação conta com uma navegação fluida entre páginas pelo uso de SPA, como o sobre mim, lista de artigos, e visualização de artigos específicos por meio de rotas dinâmicas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📚 Objetivos do Curso
 
-### `yarn build`
+**👉 React: desenvolvendo em React Router com JavaScript**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Conhecer a biblioteca **react-router-dom** e utilizar seus principais recursos;
+* Aprender o que é e por que utilizar uma **SPA (Single Page Application)**;
+* Resolver problemas utilizando **rotas aninhadas** e **rotas dinâmicas**;
+* Explorar os **hooks do react-router-dom**, como useLocation e useParams;
+* Implementar **desafios práticos**;
+* **Personalizar** o projeto e publicar na Vercel.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="80" height="80"/>                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/>                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/>        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="80" height="80"/>
 
-### `yarn eject`
+## 🖼️ Visualização do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Uma prévia das principais funcionalidades do **Hello, World!**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**🌐 Acesse o Projeto Online**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O projeto está disponível para visualização na **Vercel**. Clique no link abaixo para acessar:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="hello-world-nu-teal-37.vercel.app" target="_blank">![Static Badge](https://img.shields.io/badge/Vercel-project?style=for-the-badge&color=A91079)</a>
 
-## Learn More
+**📄 Página de Artigos**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Lista de artigos disponíveis, com imagens, títulos e um botão para leitura.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Página de Artigos](src/assets/hello-world-home.png)
 
-### Code Splitting
+**📘 Leitura de Artigos**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ao clicar em "Ler", o usuário é levado a uma nova rota com o conteúdo completo do artigo.
 
-### Analyzing the Bundle Size
+![Leitura de Artigos](src/assets/hello-world-page.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**👩 Sobre Mim**
 
-### Making a Progressive Web App
+Seção dedicada à autora do site, com uma breve apresentação.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Página sobre mim](src/assets/hello-world-about.png)
